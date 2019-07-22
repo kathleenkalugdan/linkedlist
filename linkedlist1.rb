@@ -53,9 +53,9 @@ end
 
 
 
-node1 = LinkedListNode.new(12)
-node2 = LinkedListNode.new(14, node1)
-node3 = LinkedListNode.new(13, node2)
+node1 = LinkedListNode.new(37)
+node2 = LinkedListNode.new(99, node1)
+node3 = LinkedListNode.new(12, node2)
 
 
 print_values(node3)
